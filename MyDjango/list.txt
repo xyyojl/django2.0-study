@@ -1,0 +1,27 @@
+卷 OS 的文件夹 PATH 列表
+卷序列号为 B8F5-1108
+C:.
+│  list.txt
+│  manage.py
+│  
+├─index
+│  │  admin.py
+│  │  apps.py
+│  │  models.py
+│  │  tests.py
+│  │  views.py
+│  │  __init__.py
+│  │  
+│  └─migrations
+│          __init__.py
+│          
+└─MyDjango
+    │  settings.py
+    │  urls.py
+    │  wsgi.py
+    │  __init__.py
+    │  
+    └─__pycache__
+            settings.cpython-36.pyc
+            __init__.cpython-36.pyc
+            
