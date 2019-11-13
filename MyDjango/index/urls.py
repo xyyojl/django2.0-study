@@ -9,4 +9,9 @@ urlpatterns = [
     re_path('(?P<year>[0-9]{4}).html',views.myyear,name='myyear'),
     # 参数为字典的 URL
     re_path('dict/(?P<year>[0-9]{4}).htm',views.myyear_dict,{'month':'05'},name='myyear_dict'),
+    path('download.html',views.download),
+    path('login.html',views.login),
+    # 通用视图 ListView
+    # path('index/',views.ProductList.as_view())
+    path('index/<id>.html', views.ProductList.as_view(),{'name':'phone'})
 ]
