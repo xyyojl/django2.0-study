@@ -17,7 +17,7 @@ pip install virtualenv
 2、创建虚拟环境
 
 ```python
-virtualenv ENV
+virtualenv env
 ```
 
 3、启动环境
@@ -25,8 +25,8 @@ virtualenv ENV
 注：由于本人的电脑系统是win的，所以就会不一样的
 
 ```python
-# 进入 ENV 这个目录
-cd ENV
+# 进入 env 这个目录
+cd env
 # 启动虚拟环境
 .\Scripts\activate
 # 错误写法，原因：win的坑
@@ -42,7 +42,7 @@ cd ENV
 4、退出当前虚拟环境
 
 ```python
-deactivate
+.\Scripts\deactivate.bat
 ```
 
 5、生成 requirments.txt 依赖文件
@@ -97,6 +97,7 @@ cd 虚拟环境的目录
 
 ## 参考资料：
 
+- [最全的Python虚拟环境使用方法](https://zhuanlan.zhihu.com/p/60647332)
 - [virtualenv的问题 - 无法激活](https://xbuba.com/questions/8921188)
 - [Windows下搭建Python虚拟环境](https://www.jianshu.com/p/ad2d8ee4a679)
 - [python的虚拟环境](https://segmentfault.com/a/1190000015885508)
